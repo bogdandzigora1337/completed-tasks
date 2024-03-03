@@ -1,0 +1,12 @@
+.container-error-component {
+  display: flex;
+  align-items: center;
+}
+
+.error-alert {
+  height: 60px;
+
+  &__btn {
+    margin-left: 15px;
+  }
+}

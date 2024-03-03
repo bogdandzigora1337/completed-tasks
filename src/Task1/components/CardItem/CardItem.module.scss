@@ -1,0 +1,26 @@
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  border: 1px solid #1677ff;
+  background-color: #f8f9fa;
+  padding: 0px 5px 0px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  width: calc(33.33% - 16px);
+  box-sizing: border-box;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    font-size: 2rem;
+    padding-left: 20px;
+  }
+
+  &__header {
+    margin-top: 10px;
+  }
+
+  &__list {
+    list-style-type: disc;
+  }
+}
